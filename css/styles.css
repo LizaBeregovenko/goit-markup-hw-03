@@ -1,122 +1,136 @@
 /* стилі до index.html */
-.body{
-
+.body {
+  color: #e5e5e5;
 }
 
 /* верхня лінія */
-.header{
-
+.header {
 }
-.header-nav{
-
+.header-nav {
 }
-.nav-logo{
-
+.nav-logo {
+  color: #000000;
 }
-.accent_logo{
-
+.accent_logo {
+  color: #2196f3;
 }
-.nav-list{
-
+.nav-list {
+  cursor: pointer;
+  list-style: none;
 }
-.nav-link{
-
+.nav-link {
+  color: #212121;
 }
-.header-list{
-
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  color: #2196f3;
 }
-.header-link-mail{
-
+.header-list {
+  list-style: none;
 }
-.header-link-tel{
-
+.header-link-mail {
+  color: #757575;
 }
+.header-link-mail:hover,
+.header-link-mail:focus {
+  color: #2196f3;
+}
+.header-link-tel {
+  color: #757575;
+}
+.header-link-tel:hover,
+.header-link-tel:focus {
+  color: #2196f3;
+}
+
 /* секція Герой */
-.hero{
-
+.hero {
+  background-color: #2f303a;
 }
-.hero-caption{
-
+.hero-caption {
+  color: #ffffff;
 }
-.hero-button{
-
+.hero-button {
+  color: #ffffff;
 }
 
 /*секція особливості*/
-.about{
-
+.about {
 }
-.about-list{
-
+.about-list {
+  list-style: none;
 }
-.about-item{
-
+.about-item {
 }
-.about-title{
-
+.about-title {
+  color: #212121;
 }
-.about-text{
-
+.about-text {
+  color: #757575;
 }
 
 /* секція чим займаємось */
-.work{
-
+.work {
 }
-.work-title{
-
+.work-title {
+  color: #000000;
 }
-.work-item{
-
+.work-list {
+  list-style: none;
 }
-.work-img{
-
+.work-item {
+}
+.work-img {
 }
 
 /* секція команда */
-.team{
-
+.team {
+  background-color: #f5f4fa;
+  position: absolute;
+  width: 1600px;
+  height: 648px;
 }
-.team-caption{
-
+.team-caption {
+  color: #212121;
 }
-.team-list{
-
+.team-list {
+  width: 1170px;
+  height: 368px;
 }
-.team-item{
-
+.team-item {
 }
-.team-img{
-
+.team-img {
 }
-.team-item-title{
-
+.team-item-title {
+  color: #212121;
 }
-.team-item-text{
-
+.team-item-text {
+  color: #757575;
 }
 
 /* футер */
-.footer{
-
+.footer {
+  background-color: #2f303a;
 }
-.footer-logo{
-
+.footer-logo {
+  color: #ffffff;
 }
-.footer-address{
-
+.footer-address {
+  width: 231px;
+  height: 81px;
 }
-.footer-list{
-
+.footer-list {
+  list-style: none;
 }
-.footer-link-address{
-
+.footer-link-address {
+  color: #ffffff;
 }
-.footer-link-mail{
-
+.footer-link-mail {
+  color: rgba(255, 255, 255, 0.6);
 }
-.footer-link-tel{
-
+.footer-link-tel {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* стилі для portfolio.html */
