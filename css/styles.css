@@ -1,9 +1,122 @@
+/* стилі до index.html */
+.body{
+
+}
+
+/* верхня лінія */
 .header{
 
 }
-.nav_logo{
-    color: black;
+.header-nav{
+
+}
+.nav-logo{
+
 }
 .accent_logo{
-    color:rgba(33, 150, 243, 1);
+
 }
+.nav-list{
+
+}
+.nav-link{
+
+}
+.header-list{
+
+}
+.header-link-mail{
+
+}
+.header-link-tel{
+
+}
+/* секція Герой */
+.hero{
+
+}
+.hero-caption{
+
+}
+.hero-button{
+
+}
+
+/*секція особливості*/
+.about{
+
+}
+.about-list{
+
+}
+.about-item{
+
+}
+.about-title{
+
+}
+.about-text{
+
+}
+
+/* секція чим займаємось */
+.work{
+
+}
+.work-title{
+
+}
+.work-item{
+
+}
+.work-img{
+
+}
+
+/* секція команда */
+.team{
+
+}
+.team-caption{
+
+}
+.team-list{
+
+}
+.team-item{
+
+}
+.team-img{
+
+}
+.team-item-title{
+
+}
+.team-item-text{
+
+}
+
+/* футер */
+.footer{
+
+}
+.footer-logo{
+
+}
+.footer-address{
+
+}
+.footer-list{
+
+}
+.footer-link-address{
+
+}
+.footer-link-mail{
+
+}
+.footer-link-tel{
+
+}
+
+/* стилі для portfolio.html */
