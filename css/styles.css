@@ -223,6 +223,7 @@ ul {
 .section-link-tel:hover {
   color: var(--color-white);
 }
+
 /* стилі для portfolio.html */
 
 /* секція фільтри */
@@ -252,7 +253,8 @@ ul {
 .portfolio-filter.btn-filter.curret {
   background-color: var(--color-accent);
 }
-/* секція картики */
+
+/* секція картки портфоліо*/
 .portfolio-cards-list {
   list-style: none;
 }
