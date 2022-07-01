@@ -54,7 +54,7 @@ ul {
 .page-link:focus {
   color: var(--color-accent);
 }
-.active.curret {
+.active.current {
   color: var(--color-accent);
 }
 .list {
@@ -250,7 +250,7 @@ ul {
   background-color: var(--color-accent);
 }
 
-.portfolio-filter.btn-filter.curret {
+.portfolio-filter.btn-filter.current {
   background-color: var(--color-accent);
 }
 
