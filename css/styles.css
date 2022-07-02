@@ -248,10 +248,12 @@ ul {
 .portfolio-filter:hover,
 .portfolio-filter:focus {
   background-color: var(--color-accent);
+  color: var(--color-white);
 }
 
 .portfolio-filter.btn-filter.current {
   background-color: var(--color-accent);
+  color: var(--color-white);
 }
 
 /* секція картки портфоліо*/
