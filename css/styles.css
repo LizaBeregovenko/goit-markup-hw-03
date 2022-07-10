@@ -76,6 +76,7 @@ p {
 }
 /* верхня лінія */
 .navigation {
+  border-bottom: 1px solid #ececec;
 }
 .navigation-container {
   display: flex;
@@ -319,6 +320,7 @@ p {
 .section-address {
   font-style: normal;
   display: block;
+  margin-left: auto;
 }
 
 .section-list {
@@ -333,15 +335,12 @@ p {
 }
 .section-link-address {
   color: var(--color-white);
-  text-decoration: none;
 }
 .section-link-mail {
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
 }
 .section-link-tel {
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
 }
 .section-link-mail:hover,
 .section-link-mail:focus,
