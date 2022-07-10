@@ -67,8 +67,7 @@ p {
   margin-left: auto;
   margin-right: auto;
 
-  outline: 2px solid rebeccapurple;
-  outline-offset: -2px;
+  /* outline: 2px solid rebeccapurple; */
 }
 
 .section {
@@ -158,6 +157,10 @@ p {
 .hero {
   background-color: var(--background-color-basic);
 }
+.hero-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 .hero-caption {
   font-weight: 900;
   font-size: 44px;
@@ -172,6 +175,7 @@ p {
   margin-right: auto;
   margin-bottom: 30px;
 }
+
 .hero-button {
   font-family: inherit;
   font-weight: 700;
@@ -184,8 +188,14 @@ p {
   letter-spacing: 0.06em;
   border-radius: 4px;
   min-width: 200px;
-  padding: 10px 32px;
+  padding: 8px 30px;
   border: 2px solid transparent;
+}
+
+.hero-btn {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
 .hero-button:hover,
@@ -301,11 +311,14 @@ p {
   letter-spacing: 0.03em;
   color: var(--color-white);
 
-  margin-top: 60px;
   margin-bottom: 20px;
+  padding-top: 60px;
+  display: inline-block;
 }
+
 .section-address {
   font-style: normal;
+  display: block;
 }
 
 .section-list {
@@ -313,6 +326,9 @@ p {
   line-height: 1.7;
   letter-spacing: 0.03em;
 
+  padding-bottom: 60px;
+}
+.section-item {
   margin-bottom: 9px;
 }
 .section-link-address {
@@ -339,7 +355,7 @@ p {
 /* секція фільтри */
 .portfolio {
 }
-.potrfolio-list {
+.portfolio-list {
   display: flex;
   gap: 8px;
 
@@ -376,15 +392,12 @@ p {
 .portfolio-cards-list {
   display: flex;
   flex-wrap: wrap;
-
-  justify-content: space-between;
+  gap: 30px;
 }
 .cards-list {
-  border: 1px solid #eeeeee;
-  margin-bottom: 30px;
+  background-color: var(--color-white);
 }
 .portfolio-cards-img {
-  margin-bottom: 20px;
 }
 .portfolio-cards-title {
   font-weight: 700;
@@ -394,8 +407,6 @@ p {
   color: var(--color-title);
 
   margin-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 .portfolio-cards-text {
   font-size: 16px;
@@ -404,6 +415,14 @@ p {
   color: inherit;
 
   margin-bottom: 20px;
+}
+
+.cards-border {
+  padding-top: 20px;
   padding-left: 24px;
   padding-right: 24px;
+
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
