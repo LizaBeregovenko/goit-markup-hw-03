@@ -74,6 +74,7 @@ p {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 /* верхня лінія */
 .navigation {
   border-bottom: 1px solid #ececec;
@@ -154,6 +155,7 @@ p {
 .link-mail {
   margin-right: 50px;
 }
+
 /* секція Герой */
 .hero {
   background-color: var(--background-color-basic);
